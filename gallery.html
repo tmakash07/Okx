@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - BD Stickers</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .header {
+            background-color: #dc3545; /* Red background */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .gallery-item {
+            margin: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .gallery-item img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: #343a40; /* Dark grey footer */
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            /* Removing fixed positioning for better flow */
+            /* position: fixed;
+            bottom: 0;
+            width: 100%; */
+        }
+        .back-button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            text-decoration: none;
+            background-color: #007bff;
+            color: #fff;
+            border-radius: 5px;
+            text-align: center;
+            width: fit-content;
+        }
+        .back-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Gallery</h1>
+    </div>
+
+    <div class="gallery">
+        <div class="gallery-item">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_TcpE2iIHtjt8YPcY3VPofPPHUe5mRf8wggTOUNr0BUjc0RYhUDB2UJtaVGXp1m9usp8vWVzCQPsJE98BLrGRsyPZ2BE7BO3pICPJpWf0bagcwaZ6SB1ab1iSUotItD7XhaCU-m4oAjDb6LaxB2-YLowun3bvCEd3gRFkuZpTZyBJxNYtmgKR4DSxqZkc/s1544/Screenshot_20250429_150908_3cfb58a965798c233701405f3d044eb3.jpg" alt="Image 1">
+        </div>
+        <div class="gallery-item">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLSQszsmdx4v6HjMsuLJGF35gs0_-cl9Sp_kiiwTPWB3hAPy9t7OA8PZB-3wXj9HnpjxbGaCNmsQtu5Zt-Hn_yMb0jwAVmAy20x6ZhkyysRl5VZIST85Dj_s84Ke6Zl8KigZ7v5Wa7h1InPkENkW3XOnoxQhyphenhyphenVXjTUE5WFQ_F7qTPsb2mKE4Hs54I0JCX3/s1544/Screenshot_20250429_150850_3cfb58a965798c233701405f3d044eb3.jpg" alt="Image 2">
+        </div>
+        </div>
+
+    <a href="index.html" class="back-button">Back to Homepage</a>
+
+    <footer>
+        <p>&copy; 2025 BD Stickers. All rights reserved.</p>
+    </footer>
+</body>
+</html>
